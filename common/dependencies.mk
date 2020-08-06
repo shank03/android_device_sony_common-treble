@@ -14,8 +14,10 @@
 
 ### SYSTEM LIBS
 PRODUCT_PACKAGES += \
+    libhwc2on1adapter \
     libavservices_minijail \
     libjson \
+    libgenlock \
     libion \
     libminijail \
     libstdc++.vendor \
@@ -58,7 +60,8 @@ PRODUCT_PACKAGES += \
 
 ### MEDIA
 PRODUCT_PACKAGES += \
-    libqdMetaData.system
+    libqdMetaData.system \
+    libqdMetaData
 
 ### NETMGR
 PRODUCT_PACKAGES += \
