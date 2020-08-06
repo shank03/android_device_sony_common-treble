@@ -33,5 +33,10 @@
 <exceptions>
     <exception package="com.sonyericsson.android.camera">
         <permission name="android.permission.CAMERA" fixed="false"/>
+        <permission name="android.permission.ACCESS_SURFACE_FLINGER" fixed="false"/>
+    </exception>
+
+    <exception package="com.sonymobile.providers.media">
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
     </exception>
 </exceptions>
