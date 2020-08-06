@@ -9,6 +9,7 @@ LOCAL_C_INCLUDES := \
     system/core/healthd/include \
     system/core/base/include \
     bootable/recovery/minui/include \
-    bootable/recovery
+    bootable/recovery \
+    frameworks/native/services/batteryservice/include
 
 include $(BUILD_STATIC_LIBRARY)
