@@ -47,7 +47,7 @@ TARGET_FS_CONFIG_GEN := \
     $(COMMON_PATH)/fs/config.fs
 
 ### CHARGER
-WITH_LINEAGE_CHARGER := false
+WITH_HAVOC_CHARGER := false
 # system/core/healthd/Android.mk
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 BOARD_CHARGER_ENABLE_SUSPEND := true
