@@ -53,7 +53,9 @@ PRODUCT_PACKAGES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.1
+    android.hardware.gnss@1.0 \
+    android.hardware.gnss@1.1 \
+    android.hardware.gnss@2.0
 
 # GRAPHICS
 PRODUCT_PACKAGES += \
@@ -140,4 +142,5 @@ PRODUCT_PACKAGES += \
 
 # WIFI DISPLAY
 PRODUCT_PACKAGES += \
-    vendor.display.config@1.3
+    vendor.display.config@1.9 \
+    vendor.display.config@1.9_vendor
