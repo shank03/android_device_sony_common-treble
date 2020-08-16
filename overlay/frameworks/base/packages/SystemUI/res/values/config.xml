@@ -30,4 +30,7 @@
 
     <!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
     <bool name="config_show4GForLTE">false</bool>
+
+    <!-- Show battery icon in the QS Panel instead of in the header -->
+    <bool name="config_batteryInQSPanel">true</bool>
 </resources>
