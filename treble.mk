@@ -52,10 +52,7 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1
 
 # GNSS
-PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.0 \
-    android.hardware.gnss@1.1 \
-    android.hardware.gnss@2.0
+PRODUCT_PACKAGES += android.hardware.gnss@2.0
 
 # GRAPHICS
 PRODUCT_PACKAGES += \
