@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/config/permissions/privapp-permissions-sony.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-sony.xml
 
 PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/config/permissions/product-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/product-privapp-permissions-qti.xml \
     $(COMMON_PATH)/config/permissions/sony-default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/sony-default-permissions.xml \
     $(COMMON_PATH)/config/permissions/semccamera-default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/semccamera-default-permissions.xml
 
