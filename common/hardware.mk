@@ -24,10 +24,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0 \
     android.hardware.bluetooth.audio@2.0-impl
 
-### CAMERA
-#PRODUCT_PACKAGES += \
-    Camera2
-
 ### CHARGER
 PRODUCT_PACKAGES += \
     charger_res_images
